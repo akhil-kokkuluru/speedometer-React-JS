@@ -1,0 +1,97 @@
+.imageCss {
+  width: 900px;
+}
+
+.ContentContainer {
+  color: #ffffff;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.buttons {
+  background-color: #0b69ff;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+.buttons2 {
+  background-color: transparent;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+
+.speeding {
+  font-size: 30px;
+}
+
+.speedText {
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .imageCss {
+    width: 430px;
+  }
+
+  .ContentContainer {
+    color: #ffffff;
+    font-family: Roboto;
+    text-align: center;
+  }
+
+  .buttons {
+    background-color: #0b69ff;
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    outline: none;
+  }
+  .buttons2 {
+    background-color: transparent;
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  .speeding {
+    font-size: 20px;
+  }
+
+  .speedText {
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imageCss {
+    width: 900px;
+  }
+}
